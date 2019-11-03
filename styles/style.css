@@ -1,0 +1,80 @@
+/*Start Body*/
+body {
+    /*Property*/
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;   
+} 
+/*End Body*/
+
+/*Start Debug*/
+.bg-lemonchiffon {
+    background-color: rgb(201, 201, 201);
+}
+
+.bg-lightcoral {
+    background: orange;
+}
+/*End Debug*/
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Menu Primer */
+.menu-primer ul {
+    background: orange;
+    border-radius: 8px;
+    box-shadow: 
+    0 3px 5px -1px rgba(0, 0, 0, .2),
+    0 6px 1opx 0 rgba(0, 0, 0, .14),
+    0 1px 18px 0 rgba(0, 0, 0, .12);
+}
+
+.menu-primer li {
+    border-right-color: 20px solid black;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.menu-primer a {
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 2px 3px;
+    text-transform: uppercase;   
+}
+
+.menu-primer a:hover {
+background-color:purple;
+color: black;
+text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: purple;
+    text : white;
+    text-decoration: none;
+}
+
+/*End Menu Primer*/
